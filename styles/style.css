@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url('fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-style: normal;
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+a,
+a:visited,
+a:active,
+a:hover,
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.header_div {
+    font-size: 14px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 110px;
+}
+
+.test-0-logo {
+    max-width: 100%;
+    max-height: 70px;
+}
+
+.nav_div {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 40px;
+}
+
+.booking_div {
+    margin-top: 10px;
+    background: #fffee1;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10px;
+}
+
+.trust_div {
+    background: #ffece1;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10px;
+}
+
+.search_div {
+    background: #e1eeff;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10px;
+}
+
+.search_img {
+    width: 12px;
+    margin-right: 10px;
+}
+
+.section_search {
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+
+/* стили для направлений */
+
+.test-0-fd,
+.test-0-fa {
+    font-family: 'Montserrat';
+    background-color: #e1eeff;
+    border: 0;
+    width: 150px;
+}
+
+
+/* стили для дат */
+
+.test-0-fdt,
+.test-0-fat {
+    font-family: 'Montserrat';
+    background-color: #e1eeff;
+    border: 0;
+    width: 150px;
+}
+
+
+/* стили для кол-ва пассажиров */
+
+.test-0-fnp {
+    font-size: 10px;
+    font-family: 'Montserrat';
+    background-color: #e1eeff;
+    border: 0;
+    width: 150px;
+}
+
+
+/* стили для кнопки поиска */
+
+.test-0-fbs {
+    font-family: 'Montserrat';
+    background-color: #e1eeff;
+    border-color: #b4d5ff;
+    width: 176px;
+    margin-bottom: 10px;
+}
+
+.subscribe_div {
+    background: #f3e1ff;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10px;
+}
+
+.test-0-sie {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    background-color: #f3e1ff;
+    border: 0;
+    width: 176px;
+}
+
+.test-0-sbs {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    background-color: #f3e1ff;
+    border-color: #ddabff;
+    width: 176px;
+}
+
+.promotions_div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #ffe1f6;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10px;
+}
+
+.promotion {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.test-0-ai {
+    width: 150px;
+}
+
+
+/* стили для навигации */
+
+.test-0-nav-1,
+.test-0-nav-2,
+.test-0-nav-3,
+.test-0-nav-4 {
+    margin-right: 5px;
+}
+
+.footer_div {
+    background: #ffffff;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.links {
+    font-size: 12px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    margin-right: 10px;
+}
