@@ -123,6 +123,32 @@ a:link {
     margin-bottom: 10px;
 }
 
+.test-4-bsb {
+    font-family: 'Montserrat';
+    background-color: #ffe1e1;
+    border-color: #ffb4b4;
+    width: 176px;
+    margin-bottom: 10px;
+}
+
+.test-5-add {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    background-color: #e9ffe1;
+    border-color: #79ffa1;
+    width: 176px;
+    margin-bottom: 10px;
+}
+
+.test-5-remove {
+    width: 100%;
+    height: 25px;
+    margin-right: 10px;
+    margin: 0 auto;
+    border: 0;
+    background: url(../img/ban.svg) no-repeat center;
+}
+
 .subscribe_div {
     background: #f3e1ff;
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.06);
@@ -192,4 +218,63 @@ a:link {
 
 .link {
     margin-right: 10px;
+}
+
+.search_table {
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.search_table tbody tr:nth-child(2n) {
+    background: white;
+}
+
+.test-4-fn,
+.test-4-at,
+.test-4-dd,
+.test-4-dt,
+.test-4-at,
+.test-4-ft,
+.test-4-fp,
+.test-4-fh {
+    width: 10%;
+}
+
+.test-5-fc,
+.test-5-fcity,
+.test-5-from,
+.test-5-dd,
+.test-5-dt,
+.test-5-tcity,
+.test-5-to,
+.test-5-at,
+.test-5-fp {
+    width: 11%;
+}
+
+.test-5-name,
+.test-5-last,
+.test-5-dob,
+.test-5-doc {
+    width: 25%;
+}
+
+.test-5-price {
+    font-size: 20px;
+}
+
+.test-5-book {
+    font-family: 'Montserrat';
+    background-color: #e9ffe1;
+    border-color: #79ffa1;
+    width: 176px;
+    margin-bottom: 10px;
+}
+
+.booking_total {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
