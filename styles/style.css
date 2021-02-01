@@ -57,6 +57,14 @@ a:link {
     margin-bottom: 10px;
 }
 
+.profile_div {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .trust_div {
     background: #ffece1;
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.06);
@@ -370,6 +378,36 @@ a:link {
     font-family: 'Montserrat';
     background-color: #e9ffe1;
     border-color: #79ffa1;
+    width: 176px;
+    margin-bottom: 10px;
+}
+
+.test-3-name,
+.test-3-last {
+    margin-right: 3px;
+    margin-left: 2px;
+    font-size: 18px;
+}
+
+.test-3-num {
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.test-3-code,
+.test-3-d1,
+.test-3-t1,
+.test-3-t2,
+.test-3-from,
+.test-3-to {
+    width: 16%;
+}
+
+.test-3-logout {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    background-color: #ffe1e1;
+    border-color: #ffb4b4;
     width: 176px;
     margin-bottom: 10px;
 }
