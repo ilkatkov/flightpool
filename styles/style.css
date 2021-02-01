@@ -278,3 +278,33 @@ a:link {
     flex-direction: column;
     justify-content: left;
 }
+
+.test-6-code,
+.test-6-tp {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.test-6-fc,
+.test-6-ac,
+.test-6-fcity,
+.test-6-from,
+.test-6-dd,
+.test-6-dt,
+.test-6-tcity,
+.test-6-to,
+.test-6-at,
+.test-6-ft,
+.test-6-fh {
+    width: 70%;
+    text-align: left;
+}
+
+.test-6-select {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    background-color: #e9ffe1;
+    border-color: #79ffa1;
+    width: 176px;
+    margin-bottom: 10px;
+}
