@@ -308,3 +308,46 @@ a:link {
     width: 176px;
     margin-bottom: 10px;
 }
+
+.test-2-btn {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    background-color: #e9ffe1;
+    border-color: #79ffa1;
+    width: 176px;
+    margin-bottom: 10px;
+}
+
+.alpha {
+    width: 30px;
+}
+
+.seat {
+    background-color: #5895ff;
+    height: 20px;
+}
+
+.fs_rows,
+.tfo_rows {
+    margin-bottom: 20px;
+}
+
+.select_seat {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    background-color: #e9ffe1;
+    border-color: #79ffa1;
+    width: 176px;
+    margin-bottom: 10px;
+}
+
+.input_label {
+    text-align: left;
+}
+
+.register_table {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+}
